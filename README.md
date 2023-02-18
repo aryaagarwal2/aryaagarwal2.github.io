@@ -1,1 +1,48 @@
-# aryaagarwal2.github.io
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+	<!--
+		var num=document.getElementById("fno").value
+		function Fact_rial(){
+		var f=1
+		for(var i=document.getElementById("fno").value;i>1;i--){
+			f=f*i
+		}
+		document.write(f+"<br>")
+		}
+		function Fibonacci(){
+		var a=0
+		var b=1
+		var c
+		var d=0
+		document.write(a+" ")
+		document.write(b+" ")
+		for(var i=3;i<=7;i=i+1){
+			c=a+b
+			a=b
+			b=c
+			d=d+c+" "
+		}
+		document.write(d)
+		}
+		function Natural(){
+		var ans=0;
+		for(var i=1;i<=document.getElementById("fno").value;i=i+1){
+			ans=ans+i+"<br>"
+		}
+		document.write(ans)
+		}
+	//-->
+</script>
+</head>
+<body>
+	<form>
+		Enter the number: <input type="text" id="fno"/><br><br>
+		<input type="button" onclick="Fact_rial()" value="Find Factorial"/><br><br>
+		<input type="button" onclick="Fibonacci()" value="Find Fibonacci"/><br><br>
+		<input type="button" onclick="Natural()" value="Print natural numbers"/><br><br>
+	</form>
+</body>
+</html>
+
